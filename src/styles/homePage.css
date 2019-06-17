@@ -1,0 +1,7 @@
+.home-page-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1000px;
+	background-color: rgb(189, 189, 189);
+}
