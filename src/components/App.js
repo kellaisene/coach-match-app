@@ -5,6 +5,7 @@ import '../styles/App.css';
 
 import Header from './Header';
 import HomePage from './HomePage';
+import CoachPage from './CoachPage';
 
 // function App() {
 //   return (
@@ -34,6 +35,7 @@ class App extends Component {
 				<div className="App">
 					<Header />
 					<Route exact path="/" component={HomePage} />
+					<Route path="/coachpage" component={CoachPage} />
 				</div>
 			</Router>
 		);
