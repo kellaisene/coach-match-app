@@ -5,7 +5,7 @@ import '../styles/App.css';
 
 import Header from './Header';
 import HomePage from './HomePage';
-import CoachPage from './CoachPage';
+import CoachPage from './coachComponents/CoachPage';
 
 // function App() {
 //   return (
