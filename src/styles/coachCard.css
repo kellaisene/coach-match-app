@@ -1,0 +1,22 @@
+.coach-card-container {
+	padding: 20px;
+	margin: 10px auto 20px;
+	border: 1px solid black;
+	width: 75%;
+	background-color: grey;
+}
+
+.data {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	/* background-color: red; */
+}
+
+.name {
+	font-weight: 700;
+}
+
+.margining {
+	padding-left: 10px;
+}
