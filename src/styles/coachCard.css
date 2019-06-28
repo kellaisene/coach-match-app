@@ -10,7 +10,45 @@
 	display: flex;
 	flex-direction: row;
 	text-align: left;
-	/* background-color: red; */
+	max-width: 100px;
+	background-color: red;
+}
+
+.data2 {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	max-width: 100px;
+	background-color: green;
+}
+
+.data3 {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	max-width: 100px;
+	background-color: blue;
+}
+
+.data4 {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	max-width: 100px;
+	background-color: yellow;
+}
+
+.data5 {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	max-width: 100px;
+	background-color: purple;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
 }
 
 .name {
