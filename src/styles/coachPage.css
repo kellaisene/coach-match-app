@@ -1,3 +1,7 @@
 header.coach-page-header {
 	font-size: 24px;
 }
+
+.items {
+	list-style: none;
+}
