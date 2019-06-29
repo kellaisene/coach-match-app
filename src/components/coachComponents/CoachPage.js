@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import data from '../../data';
+import './../../styles/coachPage.css';
 
 import CoachCard from './CoachCard';
 
@@ -31,7 +32,7 @@ class CoachPage extends Component {
 		console.log('Mock Data', this.state.dummyData);
 		return (
 			<main className="coach-page-container">
-				<header>Find a coach!</header>
+				<header className="coach-page-header">Find a coach!</header>
 				<div>{this.displayData()}</div>
 			</main>
 		);
