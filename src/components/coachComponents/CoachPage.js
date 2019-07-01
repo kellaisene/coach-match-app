@@ -21,12 +21,6 @@ class CoachPage extends Component {
 		});
 	}
 
-	// handleClick(e) {
-	// 	this.setState({
-	// 		currentPage: Number(e.target.id)
-	// 	})
-	// }
-
 	displayData = () => {
 		return data.map((data) => {
 			console.log('YO', data);
