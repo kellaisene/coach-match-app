@@ -5,3 +5,7 @@ header.coach-page-header {
 .items {
 	list-style: none;
 }
+
+.load-more-button {
+	margin-bottom: 20px;
+}

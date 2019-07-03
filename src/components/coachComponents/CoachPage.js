@@ -51,7 +51,7 @@ class CoachPage extends Component {
 				<header className="coach-page-header">Find a coach!</header>
 				<div className="items">{renderItems}</div>
 				{this.state.itemsPerPage < data.length && (
-					<button onClick={this.loadMore} type="button">
+					<button className="load-more-button" onClick={this.loadMore} type="button">
 						Load More
 					</button>
 				)}
