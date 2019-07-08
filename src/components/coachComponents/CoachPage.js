@@ -70,7 +70,7 @@ class CoachPage extends Component {
 				<header className="coach-page-header">Find a coach!</header>
 				<div className="search-bar-container">
 					<TextField
-						placeholder="Search by Subject"
+						placeholder="Search by Field"
 						value={data.job_title}
 						onChange={this.handleKeywordChange()}
 					/>
