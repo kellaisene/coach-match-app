@@ -10,6 +10,7 @@ class CoachPage extends Component {
 		super();
 		this.state = {
 			keyWord: '',
+			keyWord2: '',
 			dummyData: data,
 			currentPage: 1,
 			itemsPerPage: 5
