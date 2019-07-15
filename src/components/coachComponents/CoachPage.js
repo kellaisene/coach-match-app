@@ -65,7 +65,7 @@ class CoachPage extends Component {
 		const renderItems = currentItems.map((item, index) => {
 			return <li key={index}>{item}</li>;
 		});
-		console.log('Mock Data', this.state.dummyData);
+		// console.log('Mock Data', this.state.dummyData);
 		return (
 			<main className="coach-page-container">
 				<header className="coach-page-header">Find a coach!</header>
