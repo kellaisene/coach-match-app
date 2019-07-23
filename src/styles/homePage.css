@@ -1,7 +1,15 @@
 .home-page-container {
-	display: flex;
+	/* display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
 	height: 1000px;
 	background-color: rgb(189, 189, 189);
+}
+
+.login-container {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	width: 30%;
+	/* background-color: red; */
 }
