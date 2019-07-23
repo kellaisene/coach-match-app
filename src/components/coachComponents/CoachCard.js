@@ -36,6 +36,7 @@ export default function CoachCard(props) {
 			<div className="content">
 				<div className="margining">{props.hourlyRate}</div>
 			</div>
+			<button>Request a Call</button>
 		</div>
 	);
 }

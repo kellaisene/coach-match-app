@@ -33,7 +33,7 @@ class App extends Component {
 		return (
 			<Router>
 				<div className="App">
-					<Header />
+					<Header className="header" />
 					<Route exact path="/" component={HomePage} />
 					<Route path="/coachpage" component={CoachPage} />
 				</div>
