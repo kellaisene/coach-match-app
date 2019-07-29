@@ -6,6 +6,7 @@ import '../styles/App.css';
 import Header from './Header';
 import HomePage from './HomePage';
 import CoachPage from './coachComponents/CoachPage';
+import SignUp from './SignUp';
 
 // function App() {
 //   return (
@@ -36,6 +37,7 @@ class App extends Component {
 					<Header className="header" />
 					<Route exact path="/" component={HomePage} />
 					<Route path="/coachpage" component={CoachPage} />
+					<Route path="/signup" component={SignUp} />
 				</div>
 			</Router>
 		);
